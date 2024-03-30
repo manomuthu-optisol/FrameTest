@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'ScanflowCore'
-  spec.version      = '2.0.3'
+  spec.version      = '2.1.3'
   spec.license      =  { :type => "Commercial", :file => 'LICENCE.txt' }
   spec.homepage     = 'https://Scanflow.ai'
   spec.authors      = 'Scanflow'
