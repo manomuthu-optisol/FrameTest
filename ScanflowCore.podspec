@@ -13,7 +13,7 @@ Scanflow is an AI scanner promises technological solutions to any enterprise tha
 
   spec.vendored_frameworks = 'ScanflowCore.framework','opencv2.framework'
   spec.swift_version = '5.0'
-  spec.ios.deployment_target  = '9.0'
+  spec.ios.deployment_target  = '12.0'
   spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
