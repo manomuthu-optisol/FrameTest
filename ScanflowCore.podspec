@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'ScanflowCore'
-  spec.version      = '2.1.4'
+  spec.version      = '2.0.3'
   spec.license      =  { :type => "Commercial", :file => 'LICENCE.txt' }
   spec.homepage     = 'https://Scanflow.ai'
   spec.authors      = 'Scanflow'
@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
 'We are a group of AI automation enthusiasts who are passionate and dedicated about building a powerful yet simple solution for all kinds of data capture, and whether it's a simple bar code scanner or composite data capture.
 Scanflow is an AI scanner promises technological solutions to any enterprise that transform any smart device camera into an intelligent data capture device for seamless scanning and workflow automation'
                        DESC
-  spec.source       = {:git => 'https://github.com/manomuthu-optisol/FrameTest.git'}
+  spec.source       = {:git => 'https://github.com/manomuthu-optisol/FrameTest.git', :tag => '2.0.3'}
 
   spec.vendored_frameworks = 'ScanflowCore.framework','opencv2.framework'
   spec.swift_version = '5.0'
