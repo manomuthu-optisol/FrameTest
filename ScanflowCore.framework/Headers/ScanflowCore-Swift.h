@@ -339,9 +339,10 @@ typedef SWIFT_ENUM(NSInteger, OverlayViewApperance, open) {
   OverlayViewApperanceRectangle = 1,
   OverlayViewApperanceHide = 2,
   OverlayViewApperanceTire = 3,
-  OverlayViewApperanceContainerHorizantal = 4,
-  OverlayViewApperanceContainerVerticle = 5,
-  OverlayViewApperanceDocuementScaning = 6,
+  OverlayViewApperanceFullscreen = 4,
+  OverlayViewApperanceContainerHorizantal = 5,
+  OverlayViewApperanceContainerVerticle = 6,
+  OverlayViewApperanceDocuementScaning = 7,
 };
 
 
@@ -493,9 +494,16 @@ typedef SWIFT_ENUM(NSInteger, ScannerMode, open) {
   ScannerModePivotView = 5,
   ScannerModeTire = 6,
   ScannerModeDotTire = 7,
-  ScannerModeContainerHorizontal = 8,
-  ScannerModeContainerVertical = 9,
-  ScannerModeDocuementScaning = 10,
+  ScannerModeVinChassis = 8,
+  ScannerModeTextScanWhiteCoated = 9,
+  ScannerModeUniversalCodes = 10,
+  ScannerModeSugarcane = 11,
+  ScannerModeSwitchType = 12,
+  ScannerModeContainerHorizontal = 13,
+  ScannerModeContainerVertical = 14,
+  ScannerModeDocuementScaning = 15,
+  ScannerModeIdCard = 16,
+  ScannerModeLabel = 17,
 };
 
 

@@ -252,9 +252,16 @@ public enum BarCodeType {
   case pivotView
   case tire
   case dotTire
+  case vinChassis
+  case textScanWhiteCoated
+  case universalCodes
+  case sugarcane
+  case switchType
   case containerHorizontal
   case containerVertical
   case docuementScaning
+  case idCard
+  case label
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -266,6 +273,7 @@ public enum BarCodeType {
   case rectangle
   case hide
   case tire
+  case fullscreen
   case containerHorizantal
   case containerVerticle
   case docuementScaning
@@ -537,6 +545,7 @@ extension CoreVideo.CVBuffer {
   public var isFrameProcessing: Swift.Bool
   public var currentCoordinates: CoreLocation.CLLocation?
   public var captureStarted: Swift.Bool
+  public var passScaning: Swift.Bool
   @objc weak public var delegate: (any ScanflowCore.ScanflowCameraManagerDelegate)?
   final public let shapeLayer: QuartzCore.CAShapeLayer
   public var previewViewSize: CoreFoundation.CGSize {
